@@ -1,4 +1,4 @@
-
+import { FaAlignJustify } from 'react-icons/fa';
 import logo from './/img/logo1.png'
 function NavMobil (){
 return(
@@ -8,7 +8,7 @@ return(
             <img src={logo} alt="logo continum" width="20px"/>
         </div>
         <div>
-            <i class="fa-solid fa-bars"></i>
+            <i > <FaAlignJustify /></i>
         </div>
 
     </div>
