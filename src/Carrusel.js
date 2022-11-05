@@ -2,6 +2,7 @@
 import Heder2 from './/img/heder2.jpg'
 import Heder1 from './/img/Heder1.jpg'
 import Heder3 from './/img/heder3.jpg'
+import 'tw-elements';
 
 function Carrusel (){
 return(

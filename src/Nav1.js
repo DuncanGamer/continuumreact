@@ -2,7 +2,7 @@
 function Nav1 (){
     return(
         <>
-         <div class="  hidden lg:block bg-slate-800 text-gray-300 py-2 text-sm">
+        <div class="  hidden lg:block bg-slate-800 text-gray-300 py-2 text-sm">
         <div class=" container  mx-auto flex justify-between">
             <div class="flex items-center">
                 <div>

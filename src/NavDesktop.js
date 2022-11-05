@@ -4,6 +4,7 @@ import logo from './/img/logo1.png'
 function NavDesktop (){
     return (
         <>
+        
          <div class="  hidden lg:block mt-6 shadow-md">
         <div class=" container flex justify-between items-center mx-auto py-5">
             <div class=" flex items-center gap-x-6 ">
