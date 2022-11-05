@@ -1,10 +1,13 @@
+
+import React, { Component } from 'react';
+import logo from './/img/logo1.png'
 function NavDesktop (){
     return (
         <>
          <div class="  hidden lg:block mt-6 shadow-md">
         <div class=" container flex justify-between items-center mx-auto py-5">
             <div class=" flex items-center gap-x-6 ">
-                <img src="/img/logo1.png" alt="logo continum" width="60px"></img>
+                <img src={logo} alt="logo continum" width="60px"/>
                 <a href="#" class=" hover:text-gray-600">Products</a>
                 <a href="#" class=" hover:text-gray-600">Solutions</a>
                 <a href="#" class=" hover:text-gray-600">Marketplace</a>
