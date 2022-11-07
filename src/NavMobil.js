@@ -1,5 +1,7 @@
 import { FaAlignJustify } from 'react-icons/fa';
 import logo from './/img/logo1.png'
+
+
 function NavMobil (){
 return(
     <>
