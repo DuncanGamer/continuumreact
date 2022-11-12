@@ -4,12 +4,38 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'tw-elements';
-<script src="./TW-ELEMENTS-PATH/dist/js/index.min.js"></script>
+import {
+  createBrowserRouter,
+  RouterProvider,
+  Route,
+  BrowserRouter,
+  Routes,
+} from "react-router-dom";
+import SignUp from './SignUp';
+import NavDesktop from './NavDesktop';
+
+const router = createBrowserRouter([
+  {
+    path: "/",
+    element: <App />,
+  },
+  {
+    path: "/signup",
+    element: <SignUp />,
+  },
+]);
+
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <BrowserRouter>
+   <NavDesktop/>
+   <Routes>
+     <Route path='/' element={<App/>}/>
+      <Route path='/signup' element={<SignUp/>}/>
+  </Routes>
+  </BrowserRouter>
 );
 
 // If you want to start measuring performance in your app, pass a function

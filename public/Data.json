@@ -1,0 +1,27 @@
+   
+   
+    
+    [ 
+        { 
+        "image": "/img/Battle-of-the-bands.png",
+        "name": "Pink lady",
+        "description": "mi primer concierto",
+        "quantity": 6
+        
+        },
+       
+        {  
+        "image": "/img/neon.png",
+        "name": "Williams in the garden",
+        "description": "mi segundo concierto",
+        "quantity": 10
+        }, 
+        
+        {  
+            "image": "/img/neon.png",
+            "name": "Williams in the garden",
+            "description": "mi segundo concierto",
+            "quantity": 10
+            }
+      
+    ]

@@ -5,7 +5,7 @@ function Market1 (props){
     return(
         <>
        
-       <div class=" container mx-auto mb-7 pt-32   w-full pt-50 ">
+       <div class=" px-4 pt-8 container sm:mx-auto mb-7 sm:pt-32   w-full pt-50 ">
                 <h1 class=" text-4xl lg:text-7xl font-bold tracking-tight">
                     { props.Titulo1}<br/>
                     {props.Titulo2} <br/>

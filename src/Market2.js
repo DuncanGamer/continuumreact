@@ -5,7 +5,7 @@ import {FaShieldAlt } from 'react-icons/fa';
 function Market2 (){
 return(
     <>
-     <div class="  pt-20 pb-20">
+     <div class=" px-4  sm:pt-20 pb-20">
             <div class=" container flex flex-col lg:flex-row gap-y-6 justify-between mx-auto ">
                 <div class=" flex  gap-4">
                     <div>

@@ -1,16 +1,18 @@
-import Concert from './Concerts';
+
 import Battle from './/img/Battle-of-the-bands.png'
 import Adele from './/img/Adele.png'
 import Indie from './/img/Idieair.png'
 
+import Artic from './/img/Artic.png'
+import BruceSprinting from './/img/Bruce-sprinting.png'
+import BryanAdams from './/img/Bryan-Adams.png'
+
+
 function ConcertsMaster () {
     return (
         <>
-        <div class=" container m-auto pb-5">
-            <h3 class="text-3xl text-gray-600  font-bold">CONCERTS</h3>
-        </div>
-
-         <div class=" container relative snap-x overflow-x-auto mx-auto flex lg:flex-row gap-y-6 justify-between gap-5 px-6 py-6 ">
+        
+        
         <Concert
         Image = {Battle}
         Title = "Battle of the bands"
@@ -29,7 +31,25 @@ function ConcertsMaster () {
         Text = "Indie folk L'indie folk est un genre musical ayant émergé dans les années 1990 par des musiciens de rock indépendant inspiré par les musiques folk et ..."
         Tikets= "78 Billets restants disponibles"
         />
-      </div>
+        <Concert
+        Image = {Artic}
+        Title = "Artic"
+        Text = " Les Arctic Monkeys seront en concert à l'Accor Arena Bercy de Paris le mardi 9 mai 2023."
+        Tikets= "69 Billets restants disponibles"
+        />
+        <Concert
+        Image = {BruceSprinting}
+        Title = "Bruce Sprinting"
+        Text = "Bruce Springsteen  The E Street Band. Accueil. Bruce Springsteen PARIS lundi. 15. mai 2023. "
+        Tikets= "76 Billets restants disponibles"
+        />
+         <Concert
+        Image = {BryanAdams}
+        Title = "Bryan Adams"
+        Text = "  Bryan Adams, né le 5 novembre 1959 à Kingston (Ontario), est un auteur-compositeur-interprète multi-instrumentiste canadien."
+        Tikets= "94 Billets restants disponibles"
+        />
+    
         </>
     )
 }

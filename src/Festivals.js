@@ -7,7 +7,7 @@ function Festivals () {
     return (
         <>
         <div class=" container m-auto pb-5 mt-32">
-            <h3 class="text-3xl text-gray-600  font-bold">LES BONS PLANS</h3>
+            <h3 class="px-4 text-xl text-gray-600  font-bold">FESTIVALS</h3>
         </div>
 
          <div class=" container relative snap-x overflow-x-auto mx-auto flex lg:flex-row gap-y-6 justify-between gap-5 px-6 py-6 ">

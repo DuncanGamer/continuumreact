@@ -5,7 +5,7 @@ import Background  from './/img/party.jpg'
 function Baner() {
     return (
         <>
-            <div class=" py-32">
+            <div class="mt-44 pt-10-2">
                 <div class="container w-full flex items-center mx-auto bg-do-blue-dark text-white py-32 px-16 "
                     style={{ backgroundImage: "url(" + Background + ")",backgroundSize: 'cover',  }}>
                     <div class="w-1/2">
@@ -21,12 +21,8 @@ function Baner() {
             </div>
             <div class="container mx-auto pt-32">
             <section class="mb-10 text-gray-700">
-
-              
-
-
-                <div class="grid md:grid-cols-3 gap-6 lg:gap-12 text-center">
-                    <div class="mb-12 md:mb-0">
+                    <div class="container relative snap-x overflow-x-auto mx-auto flex md:grid-cols-3 gap-6 lg:gap-12 text-center">
+                    <div class=" px-4 container mx-auto shrink-0 md:shrink mb-12 md:mb-0">
                         <div class="flex justify-center mb-6">
                             <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(1).jpg"
                                 class="rounded-full shadow-lg w-32" />
@@ -90,7 +86,7 @@ function Baner() {
                             </li>
                         </ul>
                     </div>
-                    <div class="mb-12 md:mb-0">
+                    <div class=" px-4 container mx-auto shrink-0 md:shrink mb-12 md:mb-0">
                         <div class="flex justify-center mb-6">
                             <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(2).jpg"
                                 class="rounded-full shadow-lg w-32" />
@@ -155,7 +151,7 @@ function Baner() {
                             </li>
                         </ul>
                     </div>
-                    <div class="mb-0">
+                    <div class="px-4 container mx-auto shrink-0 md:shrink mb-0">
                         <div class="flex justify-center mb-6">
                             <img src="https://mdbootstrap.com/img/Photos/Avatars/img%20(9).jpg"
                                 class="rounded-full shadow-lg w-32" />
