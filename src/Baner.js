@@ -1,13 +1,13 @@
 
 import 'tw-elements';
-import Background  from './/img/party.jpg'
+
 
 function Baner() {
     return (
         <>
             <div class="mt-44 pt-10-2">
                 <div class="container w-full flex items-center mx-auto bg-do-blue-dark text-white py-32 px-16 "
-                    style={{ backgroundImage: "url(" + Background + ")",backgroundSize: 'cover',  }}>
+                    >
                     <div class="w-1/2">
                         <h2 class=" font-bold text-6xl "> Star Rocking Today</h2>
                         <p class=" text-lg font-medium mt-4"> Sing UP now and you'll be up in just minuts</p>

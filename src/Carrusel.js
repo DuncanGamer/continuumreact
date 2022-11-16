@@ -1,5 +1,4 @@
 
-import Heder2 from './/img/heder2.jpg';
 
 import 'tw-elements';
 
@@ -23,7 +22,7 @@ return(
                 <div class="carousel-inner relative w-full overflow-hidden">
                   
                     <div class="carousel-item active relative float-left w-full">
-                        <img src={Heder2} class="block w-full" alt="Motorbike Smoke" />
+                        <img src='./heder2.jpg'class="block w-full" alt="Motorbike Smoke" />
                         <div class="carousel-caption hidden absolute text-center">
                             <h5 class="text-xl">First slide label</h5>
                             <p>Some representative placeholder content for the first slide.</p>

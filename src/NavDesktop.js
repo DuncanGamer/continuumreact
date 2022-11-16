@@ -1,6 +1,6 @@
 
 
-import logo from './/img/logo1.png'
+
 import React, { useState } from 'react'
 import { HiOutlineX } from 'react-icons/hi'
 import { FaAlignJustify, } from 'react-icons/fa';
@@ -35,7 +35,7 @@ function NavDesktop() {
                         <div className=' container mx-auto flex justify-between items-center gap-x-6 '>
                             <div className=' hidden md:block'>
                                 <div className=' flex justify-between items-center gap-x-6'>
-                                    <img src={logo} alt="logo continum" width="60px" />
+                                    <img src='./logo1.png' alt="logo continum" width="60px" />
                                       <Link class=" hover:text-gray-600" to = "/"> Accueil</Link> 
                                     <a href="#" class=" hover:text-gray-600">Concerts</a>
                                     <a href="#" class=" hover:text-gray-600">Artistes</a>

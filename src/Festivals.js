@@ -1,7 +1,7 @@
 import Concert from './Concerts';
-import Artic from './/img/Artic.png'
-import BruceSprinting from './/img/Bruce-sprinting.png'
-import BryanAdams from './/img/Bryan-Adams.png'
+import Artic from './Artic.png'
+import BruceSprinting from './Bruce-sprinting.png'
+import BryanAdams from './Bryan-Adams.png'
 
 function Festivals () {
     return (
